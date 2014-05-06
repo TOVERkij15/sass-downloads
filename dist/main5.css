@@ -1,0 +1,791 @@
+.body {
+padding:100%;
+margins:0px;
+background-color: rgb(17,78,31);
+}
+
+
+.header {
+	padding-top: 100px;
+	font-color:solid white;
+	font-size:75px;
+	text-align: center;
+  	width: 100%;
+  	height: 400px;
+	background: radial-gradient(ellipse at center, rgba(180,221,180,1) 0%,rgba(131,199,131,1) 17%,rgba(82,177,82,1) 33%,rgba(0,138,0,1) 67%,rgba(0,87,0,1) 83%,rgba(0,36,0,1) 100%);
+   	transition: all        0.2s linear,
+              width      2s ease,
+              background 0.5s ease;
+    
+}
+
+.header:hover {
+	width:300px;
+	background-image: url(http://www.grit.com/~/media/Images/GRT/Editorial/Articles/Magazine%20Articles/2013/01-01/Be%20Your%20Own%20Coffee%20Roaster/Coffee-Beans.jpg);
+
+}
+
+ .wrapper {
+ 	display: inline-block;
+ 	width: 50%;
+ 	margin-top:100px;
+ 	margin-bottom:50px;
+ 	font-size: 30px;
+ }
+
+.sidebar {
+	width: 15%;
+	float: right;
+	margin: 0;
+}
+
+.list {
+	font-family:Asap;
+	font-size: 40px;
+	margin-top:50px;
+}
+
+.box {
+	transition:all 0.3s linear,
+	width 2s ease, background 0.7s;
+	padding-top:20px;
+	padding-left: 20px;
+	padding-right:20px;
+	padding-bottom:20px;
+	margin-top:300px;
+	margin-right: 100px;
+	margin-bottom:0px;
+	margin-left: 20px;
+	width:50%;
+	height:40px;
+	background:rgb(228, 92, 196);
+	float:right;
+	font-size:24px;
+	text-align: center;
+}
+
+.box:hover{
+	background-color: rgb(213, 228,92);
+}
+
+.circle { 
+	background: rgb(92, 228, 227);
+	border-radius: 10px;
+	width: 50%;
+	height:30px;
+	padding-top:100px;
+	float:right;
+	font-size: 24px;
+	margin-right: 100px;
+	margin-left: 50px;
+	margin-bottom: 0px;
+	margin-top: 50px;
+	text-align: center;
+}
+
+.circle:hover {
+	background: rgb(228, 134, 92);
+	border-radius: 75px;
+	transition: all 2s linear, 
+	width 2s, background 0.2s;
+}
+
+
+.p3 {
+	padding-top: 100px;
+}
+
+.box-shadow {
+	box-shadow:inset 0px -40px 5px rgb(49, 9, 41);
+	width: 100px;
+	height:100px;
+	float:right;
+	margin-right:100px;
+	margin-left:10px;
+	margin-bottom:10px;
+	margin-top: 100px;
+	padding-top: 40px;
+	font-size: 12px;
+	background-color: rgb(78, 17, 66);
+	border-radius: 10px;
+}
+
+.p4 {
+	padding-top:100px;
+}
+
+.shadow-button {
+	box-shadow:inset 0px -40px 5px rgb(49, 9, 41);
+	width: 100px;
+	height:100px;
+	float:right;
+	margin-right:100px;
+	margin-left:10px;
+	margin-bottom:0px;
+	margin-top: 100px;
+	padding-top: 40px;
+	font-size: 12px;
+	background-color: rgb(78, 17, 66);
+	border-radius: 10px;
+}
+
+.shadow-button:active {
+	height: 60px;
+	box-shadow: inset 0px 0px 5px rgb(49,9,41);
+	margin-top:120px;
+}
+
+.p5 {
+	padding:100px;
+}
+
+    @-webkit-keyframes infinite-spinning {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(100deg);
+  }
+}
+ @-webkit-keyframes spinning {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+
+
+
+.keyframe-1 {
+     -webkit-animation: infinite-spinning 1s infinite;
+     margin-top:100px;
+     margin-bottom:0px;
+     margin-left:100px;
+     margin-right:270px;
+	 height:100px;
+     width: 100px;
+     float:right;
+     padding-top: 0px;
+     border-radius: 20px;
+     background-color: rgb (78, 17, 66);
+ }
+
+
+
+
+.keyframe-2 {
+	 -webkit-animation: spinning 1s infinite;
+     margin-top:100px;
+     margin-bottom:100px;
+     margin-right: 300px;
+     margin-left:50px;
+	 height:100px;
+     width: 100px;
+     float:right;
+     padding-top: 10px;
+     border-radius: 20px;
+
+}
+
+.sad {
+	background-image: url(http://31.media.tumblr.com/tumblr_m0ud11pWDp1r00caao1_500.jpg);
+	display: inline-block;
+	margin-right:500px;
+	float:right;
+	width: 500px;
+	height: 500px;
+} 
+
+
+.sad:active {
+	background-image: url(http://thumbs.dreamstime.com/x/empty-coffee-cup-13292072.jpg);
+	display: inline-block;
+	height: 500px;
+	width:500px;
+	margin-right: 500px;
+	float: right;
+}
+
+.p7 {
+	float:right;
+	padding-top:350px;
+}
+
+
+.delay {
+  width: 500px;
+  height: 500px;
+  background: rgb(78,17,66);
+  margin-top: 100px;
+  margin-left: 0px;
+  margin-right: 500px;
+  -webkit-transition-delay: 2s;
+  -moz-transition-delay: 2s;
+  -o-transition-delay: 2s;
+  transition-delay: 2s;
+}
+
+.delay:hover {
+  background-color: rgb(66,78,17);
+  cursor: pointer;
+}
+
+.time {
+   -webkit-transition-duration: 2s;
+  -moz-transition-duration: 2s;
+  -o-transition-duration: 2s;
+  transition-duration: 2s;
+  -moz-transition-property: background-color:rgb(17,78,68);
+  -o-transition-property: background-color:rgb(17,64,78)
+
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 10px rgb(17,78,68);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: solid white;
+  outline: 2px solid black;
+}
+
+
+.scrollbar {
+	 margin-top:100px;
+     margin-bottom:100px;
+     float:right;
+     padding-top: 50px;
+     font-size: 30px;
+     display: inline-block;
+     
+}
+
+
+
+	@-webkit-keyframes infinite-spinning {
+  from {
+    -webkit-transform: rotate(0deg);
+}
+  to {
+    -webkit-transform: rotate(720deg);
+  }
+ }
+
+
+
+
+.permanent{
+	 margin-top:200px;
+     margin-bottom:50px;
+     margin-right: 100px;
+     margin-left:100px;
+	 height:140px;
+     width: 140px;
+     float:right;
+     padding-top: 10px;
+}
+
+.permanent:hover {
+	-webkit-animation: spinning 1s infinite;
+
+}
+
+.p8 {
+	padding-left:350px;
+	float:left;
+}
+
+    .slide:hover{
+      -moz-animation-duration: 3s;
+      -webkit-animation-duration: 3s;
+      -moz-animation-name: slidein;
+      -webkit-animation-name: slidein;
+
+}
+    
+    @-moz-keyframes slidein {
+      from {
+        margin-left:100%;
+        width:400%
+      }
+      
+      to {
+        margin-left:0%;
+        width:100%;
+ 	}
+}
+    
+    @-webkit-keyframes slidein {
+      from {
+        margin-left:100%;
+        width:400%
+      }
+      
+      to {
+        margin-left:0%;
+        width:400%;
+      }
+    }
+
+
+    .soccer {
+    	padding-top: 100px;
+}
+
+    .slide2:hover {
+      -moz-animation-duration: 2s;
+      -webkit-animation-duration: 2s;
+      -moz-animation-name: slidein;
+      -webkit-animation-name: slidein;
+
+      
+}
+    
+    @-moz-keyframes slidein {
+      from {
+        margin-left:100%;
+        width:400%
+      }
+      
+      to {
+        margin-left:0%;
+        width:100%;
+      }
+    }
+    
+    @-webkit-keyframes slidein {
+      from {
+        margin-left:100%;
+        width:400%
+      }
+      
+      to {
+        margin-left:0%;
+        width:400%;
+      }
+    }
+
+    .soccer2:hover {
+      -moz-animation-duration: 2s;
+      -webkit-animation-duration: 2s;
+      -moz-animation-name: slidein;
+      -webkit-animation-name: slidein;
+
+      
+    }
+    
+     @-moz-keyframes slidein {
+      from {
+        margin-left:100%;
+        width:200%
+      }
+      
+      75% {
+        margin-left:25%;
+        width:150%;
+      }
+      
+      to {
+        margin-left:0%;
+        width:100%;
+      }
+    }
+    
+    @-webkit-keyframes slidein {
+      from {
+        margin-left:100%;
+        width:200%
+      }
+      
+      75% {
+        margin-left:25%;
+        width:150%;
+      }
+      
+      to {
+        margin-left:0%;
+        width:100%;
+      }
+    }
+
+
+@-webkit-keyframes move5 {
+        0% {
+                height: 100px;
+        }
+        50% {
+                height: 25px;
+        }
+        100% { 
+        		height: 100px;
+
+        }
+}
+
+
+     
+
+
+
+@-webkit-keyframes move4 {
+        0% {
+                width: 100px;
+        }
+        50% {
+                width: 25px;
+        }
+        100% { 
+        		width: 100px;
+
+        }
+}
+
+.stress-ball2 {
+	 margin-top: 100px;
+     margin-bottom:50px;
+     margin-right: 100px;
+     margin-left:100px;
+	 height:300px;
+     width: 300px;
+     float:right;
+     -webkit-animation: move4 2s infinite;
+     background: rgb(92, 207, 228);
+     transition: all 2s ease;
+}
+
+.stress-ball2:active {
+	 padding:0px;
+	 -webkit-animation: move5 2s infinite;
+}
+
+.p19 {
+	margin-top: 100px;
+}
+
+
+@-webkit-keyframes infinite-spinning {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(90deg);
+  }
+}
+
+.pot{
+    margin-top: 80px;
+    margin-right: 80px;
+     -webkit-animation: infinite-spinning 2s;
+      
+}
+
+.float {
+	box-shadow:inset 0px -40px 5px rgb(78, 17, 66);
+	width: 150px;
+	height:150px;
+	float:right;
+	margin-right:100px;
+	margin-left:10px;
+	margin-bottom:50px;
+	margin-top: 150px;
+	padding-top: 40px;
+	font-size: 30px;
+	background-color:rgb(110, 61, 100);
+	border-radius: 10px;
+	text-shadow:0px 2px 1px black;
+	line-height: 50px;
+	text-align: center;
+	color:white;
+}
+
+
+.float:hover {
+	height: 60px;
+	box-shadow: inset 0px 0px 5px rgb(49,9,41);
+	margin-top:150px;
+	text-shadow:0px 10px 8px black;
+	line-height: 42px;
+	transition:all 1s ease;
+}
+
+
+
+	@-webkit-keyframes scalin {
+ 
+0% {
+    -webkit-transform: scalex(1);
+  }
+50% {
+    -webkit-transform: scalex(1);
+  }
+100% {
+ 	-webkit-transform: scalex(2);
+ }
+}
+
+
+
+.scale{
+	display: inline-block;
+	margin-top: 100px;
+     margin-bottom:100px;
+     margin-right: 100px;
+     margin-left:100px;
+	 height:200px;
+     width: 300px;
+     float: right;
+     -webkit-animation: scalin 2s infinite;
+     transition: all 3s ease;
+     transform: rotate(90deg);
+     background-repeat: no-repeat;
+     background-size: cover; 
+     background-image: url(http://www.mybooktherapy.com/wp-content/uploads/2013/08/MBT-book-1024x684.png);
+
+}
+
+@-webkit-keyframes spi {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+@keyframes spi {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+
+
+.spinn {
+	top:100px;
+	bottom: 100px;
+	left:0px;
+	right:0px;
+	padding:0%;
+	float:left;
+	width: 30px;
+	height:30px;
+	background-color: rgb(228,92,142);
+	border-radius: 100%;
+	position:relative;
+
+}
+
+.spinn:hover {
+	box-shadow: 19px 28px 0px #d35400,
+		-16px 28px 0px #3498db;
+	-webkit-animation:spi .5s linear infinite;
+
+}
+
+.p20 {
+	padding-top: 50%
+}
+
+.p21 {
+	margin-right: 50px;
+}
+
+.hidden{
+	transition:all 0.3s linear,
+	width 2s ease, background 0.7s;
+	margin-top:200px;
+     margin-bottom:50px;
+     margin-right: 100px;
+     margin-left:100px;
+	 height:400px;
+     width: 400px;
+     float:right;
+     padding-top: 10px;
+    display: block;
+    
+}
+
+.hidden:hover{
+	background-image:url(http://stylegerms.com/wp-content/uploads/2013/07/Scary-Kid.jpg);
+	height:400px;
+	width:400px;
+	visibility: visible;
+}
+
+.p22 {
+	padding-top: 200px;
+}
+
+
+.p23 {
+	padding-top:200px;
+}
+
+.p24 {
+	padding-top:200px;
+
+}
+
+.p25 {
+	padding-top:300px;
+}
+
+.p26 {
+	padding-top:200px;
+}
+
+.p27{
+	padding-top:200px;
+}
+
+.p28 {
+
+}
+
+@-webkit-keyframes color {
+	0%{
+		background-color:blue;
+	}
+	20%{
+		background-color:red;
+	}
+	50%{
+		background-color:purple;
+	}
+	100%{
+		background-color:yellow;
+	}
+}
+
+.colorme { 
+	border-radius: 100%;
+	width: 200px;
+	height: 200px;
+	padding-top:0px;
+	float:left;
+	margin-right: 400px;
+	margin-left: 0px;
+	margin-bottom: 100px;
+	margin-top: 0px;
+	-webkit-animation: color 3s infinite;
+	display:inline-block;
+
+}
+
+
+
+
+@-webkit-keyframes translate2 {
+	0% {
+		-webkit-transform: translatex(500px);
+	}
+	50% {
+		-webkit-transform: translatex(100px);
+	}
+	100% {
+		-webkit-transform: translatex(500px);
+	}
+}
+
+
+.color-move {
+	-webkit-animation: translate2 5s infinite;
+}
+
+.colorme2 {
+	border-radius: 100%;
+	width: 200px;
+	height: 200px;
+	padding-top:0px;
+	float:left;
+	margin-right: 400px;
+	margin-left: 0px;
+	margin-bottom: 100px;
+	margin-top: 0px;
+	-webkit-animation: color 3s infinite;
+	display:inline-block;
+}
+
+.font {
+	box-shadow:inset 0px -40px 5px rgb(49, 9, 41);
+	width: 100px;
+	height:100px;
+	float:right;
+	margin-right:100px;
+	margin-left:10px;
+	margin-bottom:30px;
+	margin-top: 70px;
+	padding-top: 40px;
+	font-size: 12px;
+	background-color: rgb(78, 17, 66);
+	border-radius: 10px;
+}
+
+.font:active {
+	height: 60px;
+	box-shadow: inset 0pxs 0px 5px rgb(49,9,41);
+	margin-top:120px;
+	font-size:24px;
+
+}
+
+.zoom:hover{
+	zoom:200%;
+	margin-right: 100px;
+}
+
+
+@-webkit-keyframes fading {
+	0%{
+		opacity:1;
+	}
+	100%{
+		opacity:0;
+	}
+}
+
+.fade-me{
+	margin-top: 100px;
+	margin-bottom: 20px;
+	padding-right: 50px;
+}
+
+.fade-me:active {
+	display: inline-block;
+	padding-top: 200px;
+	-webkit-animation:fading 2s infinite;
+	float:right;
+
+}
+
+
+@-webkit-keyframes font3 {
+	0%{
+		font-size: 12px;
+	}
+	50%{
+		font-size: 24px;
+	}
+	100%{
+		font-size: 12px;
+	}
+}
+
+.words{ 
+	height: 100px;
+	width: 100px;
+	color: blue;
+	background-color: red;
+	display: inline-block;
+	margin-top: 100px;
+	float:right;
+	padding-right:100px;
+	padding-bottom:50px;
+}
+
+.words:hover {
+	-webkit-animation: font3 2s infinite;
+}
