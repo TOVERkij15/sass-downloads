@@ -1,3 +1,199 @@
-.test {
-	color: blue;
+
+.header{
+	padding-top: 100px;
+	font-color:solid white;
+	font-size:25px;
+	text-align: center;
+  	width: 100%;
+  	height: 400px;
+	background: radial-gradient(ellipse at center, rgba(180,221,180,1) 0%,rgba(131,199,131,1) 17%,rgba(82,177,82,1) 33%,rgba(0,138,0,1) 67%,rgba(0,87,0,1) 83%,rgba(0,36,0,1) 100%);
+   	transition: all        0.2s linear,
+              width      2s ease,
+              background 0.5s ease;
+    
 }
+
+.header:hover{
+	width:300px;
+	background-image: url(http://www.grit.com/~/media/Images/GRT/Editorial/Articles/Magazine%20Articles/2013/01-01/Be%20Your%20Own%20Coffee%20Roaster/Coffee-Beans.jpg);
+}
+
+.wrapper{
+	display: inline-block;
+	width:50%;
+	margin: 100px 0px 50px 0px;
+	font-size: 30px;
+	float:left;
+
+		.para{
+			color:red;
+			
+		}
+
+}
+
+.sidebar {
+	width:30%;
+	float:right;
+	position:inline-block;
+
+		.image {
+			padding: 20px 20px 20px 20px;
+			margin: 100px 0px 25px 0px;
+			width:50%;
+			height:40px;
+			font-size:24px;
+			text-align:center;
+		
+		}
+}
+		.box {
+ 		background-color: rgb(228, 92, 196);
+ 		transition:all 0.3s linear,
+		width 2s ease, background 0.7s;
+	
+		}
+		.box:hover {
+		background-color: rgb(213, 228,92);
+		color:rgb(228, 92, 196);
+}
+		.circle {
+		background: rgb(92, 228, 227);
+		border-radius: 10px;
+		padding-top:100px;
+
+}
+		.circle:hover {
+		background: rgb(228, 134, 92);
+		border-radius: 75px;
+		transition: all 2s linear, 
+		width 2s, background 0.2s;
+}
+		.permanent:hover {
+		-webkit-animation: spinning 1s infinite;
+
+}
+		.delay:hover{
+			background-color: rgb(66,78,17)
+			cursor:pointer;
+			/*find out why this one does not work*/
+}
+	
+		.slide:hover{
+      -moz-animation-duration: 3s;
+      -webkit-animation-duration: 3s;
+      -moz-animation-name: slidein;
+      -webkit-animation-name: slidein;
+
+}
+
+		.shadow {
+		box-shadow:inset 0px -40px 5px rgb(49, 9, 41);
+		background-color: rgb(78, 17, 66);
+		border-radius: 10px;
+		margin-top: 100px;
+		padding-top:40px;
+		font-size: 12px;
+		height:100px;
+		width: 100px;
+}	
+		.button:active{
+		height: 60px;
+		margin-top:120px;
+		box-shadow: inset 0px 0px 5px rgb(49,9,41);
+}
+
+
+
+@-webkit-keyframes infinite-spinning {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+ @-webkit-keyframes spinning {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+	}	
+		.keyframe {
+     	border-radius: 100%;
+     	margin-top: 100px;
+     	-webkit-animation: infinite-spinning 1s infinite;
+}
+     	
+
+
+ 		.swap {
+		background-image: url(http://31.media.tumblr.com/tumblr_m0ud11pWDp1r00caao1_500.jpg);
+		width: 500px;
+		height: 500px;
+
+	
+} 
+		.swap:active {
+		background-image: url(http://thumbs.dreamstime.com/x/empty-coffee-cup-13292072.jpg);
+	
+}		
+		
+ body::-webkit-scrollbar {
+    width: 10px;
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 10px rgb(17,78,68);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: solid white;
+  outline: 2px solid black;
+}
+    
+
+/* need help with slidein
+ @-moz-keyframes slidein {
+      from {
+        margin-left:100%;
+        width:400%
+      }
+      
+      to {
+        margin-left:0%;
+        width:100%;
+ 	}
+}
+    
+    @-webkit-keyframes slidein {
+      from {
+        margin-left:100%;
+        width:400%
+      }
+      
+      to {
+        margin-left:0%;
+        width:400%;
+      }
+    }
+	
+		.slide:hover{
+      -moz-animation-duration: 3s;
+      -webkit-animation-duration: 3s;
+      -moz-animation-name: slidein;
+      -webkit-animation-name: slidein;
+		
+  
+/*none of the hover from under the tire work!*/
+
+
+
+	
+ 		
+
+
+
+
