@@ -1,5 +1,6 @@
 var gulp        = require('gulp'),
     gutil       = require('gulp-util'),
+    bourbon     = require('node-bourbon').includePaths,
     sass        = require('gulp-sass'),
     csso        = require('gulp-csso'),
     uglify      = require('gulp-uglify'),
@@ -15,11 +16,12 @@ var gulp        = require('gulp'),
  
  
 // --- Basic Tasks ---
+
 gulp.task('css', function() {
   return gulp.src('src/assets/stylesheets/*.scss')
     .pipe( 
       sass( { 
-        includePaths: ['src/assets/stylesheets'],
+        includePaths: ['src/assets/stylesheets'].concat(bourbon),
         errLogToConsole: true
       } ) )
     .pipe( csso() )
