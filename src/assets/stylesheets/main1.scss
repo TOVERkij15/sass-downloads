@@ -1,0 +1,579 @@
+@import "bourbon";
+
+   @-webkit-keyframes infinite-spinning {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(100deg);
+  }
+}
+ 
+
+ @-webkit-keyframes spinning {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+
+	@-webkit-keyframes infinite-spinning {
+  from {
+    -webkit-transform: rotate(0deg);
+}
+  to {
+    -webkit-transform: rotate(720deg);
+  }
+ 
+}
+
+
+@-moz-keyframes slidein {
+      from {
+        margin-left:100%;
+        width:400%
+      }
+      
+      to {
+        margin-left:0%;
+        width:100%;
+ 	}
+}
+    
+@-webkit-keyframes slidein {
+      from {
+        margin-left:100%;
+        width:400%
+      }
+      
+      to {
+        margin-left:0%;
+        width:400%;
+} }
+
+@-moz-keyframes slidein {
+      from {
+        margin-left:100%;
+        width:400%
+      }
+      
+      to {
+        margin-left:0%;
+        width:100%;
+     }
+}
+    
+ @-webkit-keyframes slidein {
+      from {
+        margin-left:100%;
+        width:400%
+      }
+      
+      to {
+        margin-left:0%;
+        width:400%;
+      }
+    }
+
+
+     @-moz-keyframes slidein {
+      from {
+        margin-left:100%;
+        width:200%
+      }
+      
+      75% {
+        margin-left:25%;
+        width:150%;
+      }
+      
+      to {
+        margin-left:0%;
+        width:100%;
+      }
+    }
+    
+    @-webkit-keyframes slidein {
+      from {
+        margin-left:100%;
+        width:200%
+      }
+      
+      75% {
+        margin-left:25%;
+        width:150%;
+      }
+      
+      to {
+        margin-left:0%;
+        width:100%;
+      }
+    }
+
+@-webkit-keyframes move5 {
+        0%, 100% {
+                height: 100px;
+        }
+        50% {
+                height: 25px;
+        }
+     
+}
+
+
+@-webkit-keyframes move4 {
+        0%,100% {
+                width: 100px;
+        }
+        50% {
+                width: 25px;
+        }
+    
+}
+
+
+@-webkit-keyframes infinite-spinning {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(90deg);
+  }
+}
+
+
+	@-webkit-keyframes scalin {
+ 
+0%, 50% {
+    -webkit-transform: scalex(1);
+  }
+100% {
+ 	-webkit-transform: scalex(2);
+ }
+}
+
+@-webkit-keyframes spi {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+@keyframes spi {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes color {
+	0%{
+		background-color:blue;
+	}
+	20%{
+		background-color:red;
+	}
+	50%{
+		background-color:purple;
+	}
+	100%{
+		background-color:yellow;
+	}
+}
+
+@-webkit-keyframes translate2 {
+	0%, 100% {
+		-webkit-transform: translatex(500px);
+	}
+	50% {
+		-webkit-transform: translatex(100px);
+	}
+	
+}
+
+
+@-webkit-keyframes fading {
+	0%{
+		opacity:1;
+	}
+	100%{
+		opacity:0;
+	}
+}
+
+
+@-webkit-keyframes font3 {
+	0%, 100%{
+		font-size: 12px;
+	}
+	50%{
+		font-size: 24px;
+	}
+}
+
+
+@-webkit-keyframes infinite-spinning {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+ @-webkit-keyframes spinning {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+	}
+
+ @-moz-keyframes slidein {
+      from {
+        margin-left:100%;
+        width:400%
+      }
+      
+      to {
+        margin-left:0%;
+        width:100%;
+ 	}
+}
+    
+    @-webkit-keyframes slidein {
+      from {
+        margin-left:100%;
+        width:400%
+      }
+      
+      to {
+        margin-left:0%;
+        width:400%;
+      }
+    }
+	
+
+.body {
+	font-family: oswald, sans-serif;
+	morgin: 0px;
+	padding: 100%;
+}
+
+.header{
+	padding-top: 100px;
+	color: white;
+	font-size: 25px;
+	text-align: center;
+  	width: 100%;
+  	height: 400px;
+	@include background-image(radial-gradient(center, ellipse cover, rgba(235,241,246,1) 0%,rgba(171,211,238,1) 50%,rgba(137,195,235,1) 51%,rgba(213,235,251,1) 100%));
+   	transition: all        0.2s linear,
+              width      2s ease,
+              background 0.5s ease;
+    
+	&:hover{
+	width:300px;
+	background-image: url(http://www.grit.com/~/media/Images/GRT/Editorial/Articles/Magazine%20Articles/2013/01-01/Be%20Your%20Own%20Coffee%20Roaster/Coffee-Beans.jpg);
+	}	
+}
+
+.wrapper{
+	display: inline-block;
+	width:100%;
+	margin: 100px 0px 50px 0px;
+	font-size: 30px;
+	float:left;
+
+		.para{
+			color:red;
+			padding-top:200px;
+
+			&:active {
+			background-image: url(http://thumbs.dreamstime.com/x/empty-coffee-cup-13292072.jpg);
+		}
+	}
+}
+
+.sidebar {
+	width:50%;
+	float:right;
+	position:inline-block;
+	margin:50%,50%,50%,50%;
+
+
+		.image {
+			padding: 100px 100px 100px 100px;
+			margin: 100px 0px 25px 0px;
+			width:50%;
+			height:200px;
+			font-size:24px;
+			text-align:center;
+		
+
+		.box {
+ 		background-color: rgb(228, 92, 196);
+ 		transition:all 0.3s linear,
+		width 2s ease, background 0.7s;
+
+			&:hover {
+			background-color: rgb(213, 228,92);
+			color:rgb(228, 92, 196);
+		}
+	}
+
+		.circle {
+		background: rgb(92, 228, 227);
+		border-radius: 10px;
+		padding-top:100px;
+
+
+			&:hover {
+			background: rgb(228, 134, 92);
+			border-radius: 75px;
+			transition: all 2s linear, 
+			width 2s, background 0.2s;
+		}	
+	}		
+
+
+	@mixin box-shadow {$shade: 0 3px 1px 0)
+	-moz-box-shadow: $shade;
+	-webkit-box-shadow: $shade;
+	-ms-box-shadow: $shade;
+}
+
+	$shade: 0 3px 1px 0;
+
+	.shade{
+		box-shadow:inset 0px -40px 5px rgb(49, 9, 41);
+		width: 100px;
+		height:100px;
+		margin-top: 100px;
+		padding-top: 40px;
+		background-color: rgb(78, 17, 66);
+		border-radius: 10px;
+		@include box-shadow();
+
+}
+
+
+
+
+
+
+
+.puck{
+	 margin-top:200px;
+     margin-bottom:50px;
+     margin-right: 100px;
+     margin-left:100px;
+	 height:180px;
+     width: 180px;
+ 	 padding-top: 10px;
+
+
+		&:hover {
+			-webkit-animation: spinning 1s infinite;
+		}
+	}
+
+			
+			 .delay {
+  			 width: 500px;
+ 			 height: 500px;
+ 			 background: rgb(78,17,66);
+ 			 margin-top: 100px;
+ 			 -webkit-transition-delay: 2s;
+ 			 -moz-transition-delay: 2s;
+ 			 -o-transition-delay: 2s;
+ 			 transition-delay: 2s;
+
+
+				&:hover{
+				background-color: rgb(66,78,17);
+				cursor: pointer;
+	}
+}
+	.soccer:hover{
+    	-moz-animation-duration: 3s;
+    	-webkit-animation-duration: 2s;
+    	-moz-animation-name: slidein;
+    	-webkit-animation-name: slidein;
+}
+
+		.shadow {
+			box-shadow:inset 0px -40px 5px rgb(49, 9, 41);
+			background-color: rgb(78, 17, 66);
+			border-radius: 10px;
+			margin-top: 100px;
+			padding-top:40px;
+			font-size: 12px;
+			height: 100px;
+			width: 100px;
+	
+			&:active{
+				height: 60px;
+				margin-top:120px;
+				box-shadow: inset 0px 0px 5px rgb(49,9,41); 
+			}
+		}
+		
+
+	.keyframe {
+     	border-radius: 100%;
+     	margin-top: 100px;
+    	 -webkit-animation: infinite-spinning 1s infinite;
+ 	}
+     	
+
+
+ 		.swap {
+			background-image: url(http://31.media.tumblr.com/tumblr_m0ud11pWDp1r00caao1_500.jpg);
+			width: 500px;
+			height: 500px; 
+		}
+
+	.soccer2:hover {
+    	-moz-animation-duration: 2s;
+        -webkit-animation-duration: 2s;
+        -moz-animation-name: slidein;
+        -webkit-animation-name: slidein;
+        padding-top:100%;
+    }
+
+	.pot{
+    	margin-top: 80px;
+    	margin-right: 80px;
+    	-webkit-animation: infinite-spinning 2s;
+    }
+
+	.move2:active {
+		padding:0px;
+		-webkit-animation: move5 2s infinite;
+	}
+ 
+
+	.float {
+		box-shadow:inset 0px -40px 5px rgb(78, 17, 66);
+		width: 150px;
+		height:150px;
+		float:right;
+		margin-right:100px;
+		margin-left:10px;
+		margin-bottom:50px;
+		margin-top: 150px;
+		padding-top: 40px;
+		font-size: 30px;
+		background-color:rgb(110, 61, 100);
+		border-radius: 10px;
+		text-shadow:0px 2px 1px black;
+		line-height: 50px;
+		text-align: center;
+		color:white;
+
+			&:hover {
+				height: 60px;
+				box-shadow: inset 0px 0px 5px rgb(49,9,41);
+				margin-top:150px;
+				text-shadow:0px 10px 8px black;
+				line-height: 42px;
+				transition:all 1s ease;
+			}
+	}
+
+	.scale {
+		-webkit-animation: scalin 2s infinite;
+   		transition: all 3s ease;
+    	transform: rotate(90deg);
+   		background-repeat: no-repeat;
+    	background-size: cover; 
+    	background-image: url(http://www.mybooktherapy.com/wp-content/uploads/2013/08/MBT-book-1024x684.png);
+    }
+
+		
+				.spinn {
+				top:100px;
+				bottom: 100px;
+				left:0px;
+				right:0px;
+				padding:0%;
+				float:left;
+				width: 30px;
+				height:30px;
+				background-color: rgb(228,92,142);
+				border-radius: 100%;
+				@include position:(relative opx 00 100px);
+
+
+	&:hover {
+		box-shadow: 19px 28px 0px #d35400,
+					-16px 28px 0px #3498db;
+		-webkit-animation:spi .5s linear infinite;
+		
+	}
+}
+
+	.fade-me:active {
+		display: inline-block;
+		padding-top: 200px;
+		-webkit-animation:fading 2s infinite;
+		float: right;
+	}
+
+	.words{ 
+		height: 100px;
+		width: 100px;
+		color: blue;
+		background-color: red;
+		padding: 0, 100px, 50px, 0px;
+	
+		&:hover {
+			-webkit-animation: font3 2s infinite;
+		}
+	
+	.font:active {
+		height: 60px;
+		box-shadow: inset 0pxs, 0px, 5px, rgb(49,9,41);
+	}
+
+	.font:hover {
+		zoom: 500%;
+		margin-right: 100px;
+	}
+
+	.scroll-bar{
+		margin:300px,0, 25px, 0;
+	}
+
+	.colorme { 
+	border-radius: 100%;
+	width: 200px;
+	height: 200px;
+	padding-top: 0px;
+	float: left;
+	margin-right: 400px;
+	margin-left: 0px;
+	margin-bottom: 100px;
+	margin-top: 0px;
+	-webkit-animation: color 3s infinite;
+	display: inline-block;
+}
+
+
+
+    
+		
+
+
+
+  
+
+
+
+
+
+ 		
+
+
+
